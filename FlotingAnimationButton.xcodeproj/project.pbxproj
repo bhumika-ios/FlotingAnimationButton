@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA34CA12AFE089100B60036 /* FlotingAnimationButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA34CA02AFE089100B60036 /* FlotingAnimationButtonApp.swift */; };
+		ACA34CA32AFE089100B60036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA34CA22AFE089100B60036 /* ContentView.swift */; };
+		ACA34CA52AFE089300B60036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA34CA42AFE089300B60036 /* Assets.xcassets */; };
+		ACA34CA82AFE089300B60036 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA34CA72AFE089300B60036 /* Preview Assets.xcassets */; };
+		ACA34CB22AFE089300B60036 /* FlotingAnimationButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA34CB12AFE089300B60036 /* FlotingAnimationButtonTests.swift */; };
+		ACA34CBC2AFE089300B60036 /* FlotingAnimationButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA34CBB2AFE089300B60036 /* FlotingAnimationButtonUITests.swift */; };
+		ACA34CBE2AFE089300B60036 /* FlotingAnimationButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA34CBD2AFE089300B60036 /* FlotingAnimationButtonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACA34CAE2AFE089300B60036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA34C952AFE089100B60036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA34C9C2AFE089100B60036;
+			remoteInfo = FlotingAnimationButton;
+		};
+		ACA34CB82AFE089300B60036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA34C952AFE089100B60036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA34C9C2AFE089100B60036;
+			remoteInfo = FlotingAnimationButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACA34C9D2AFE089100B60036 /* FlotingAnimationButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlotingAnimationButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA34CA02AFE089100B60036 /* FlotingAnimationButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlotingAnimationButtonApp.swift; sourceTree = "<group>"; };
+		ACA34CA22AFE089100B60036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACA34CA42AFE089300B60036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACA34CA72AFE089300B60036 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACA34CAD2AFE089300B60036 /* FlotingAnimationButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlotingAnimationButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA34CB12AFE089300B60036 /* FlotingAnimationButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlotingAnimationButtonTests.swift; sourceTree = "<group>"; };
+		ACA34CB72AFE089300B60036 /* FlotingAnimationButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlotingAnimationButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA34CBB2AFE089300B60036 /* FlotingAnimationButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlotingAnimationButtonUITests.swift; sourceTree = "<group>"; };
+		ACA34CBD2AFE089300B60036 /* FlotingAnimationButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlotingAnimationButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA34C9A2AFE089100B60036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA34CAA2AFE089300B60036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA34CB42AFE089300B60036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA34C942AFE089100B60036 = {
+			isa = PBXGroup;
+			children = (
+				ACA34C9F2AFE089100B60036 /* FlotingAnimationButton */,
+				ACA34CB02AFE089300B60036 /* FlotingAnimationButtonTests */,
+				ACA34CBA2AFE089300B60036 /* FlotingAnimationButtonUITests */,
+				ACA34C9E2AFE089100B60036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA34C9E2AFE089100B60036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA34C9D2AFE089100B60036 /* FlotingAnimationButton.app */,
+				ACA34CAD2AFE089300B60036 /* FlotingAnimationButtonTests.xctest */,
+				ACA34CB72AFE089300B60036 /* FlotingAnimationButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA34C9F2AFE089100B60036 /* FlotingAnimationButton */ = {
+			isa = PBXGroup;
+			children = (
+				ACA34CA02AFE089100B60036 /* FlotingAnimationButtonApp.swift */,
+				ACA34CA22AFE089100B60036 /* ContentView.swift */,
+				ACA34CA42AFE089300B60036 /* Assets.xcassets */,
+				ACA34CA62AFE089300B60036 /* Preview Content */,
+			);
+			path = FlotingAnimationButton;
+			sourceTree = "<group>";
+		};
+		ACA34CA62AFE089300B60036 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACA34CA72AFE089300B60036 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACA34CB02AFE089300B60036 /* FlotingAnimationButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA34CB12AFE089300B60036 /* FlotingAnimationButtonTests.swift */,
+			);
+			path = FlotingAnimationButtonTests;
+			sourceTree = "<group>";
+		};
+		ACA34CBA2AFE089300B60036 /* FlotingAnimationButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA34CBB2AFE089300B60036 /* FlotingAnimationButtonUITests.swift */,
+				ACA34CBD2AFE089300B60036 /* FlotingAnimationButtonUITestsLaunchTests.swift */,
+			);
+			path = FlotingAnimationButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA34C9C2AFE089100B60036 /* FlotingAnimationButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA34CC12AFE089300B60036 /* Build configuration list for PBXNativeTarget "FlotingAnimationButton" */;
+			buildPhases = (
+				ACA34C992AFE089100B60036 /* Sources */,
+				ACA34C9A2AFE089100B60036 /* Frameworks */,
+				ACA34C9B2AFE089100B60036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlotingAnimationButton;
+			productName = FlotingAnimationButton;
+			productReference = ACA34C9D2AFE089100B60036 /* FlotingAnimationButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACA34CAC2AFE089300B60036 /* FlotingAnimationButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA34CC42AFE089300B60036 /* Build configuration list for PBXNativeTarget "FlotingAnimationButtonTests" */;
+			buildPhases = (
+				ACA34CA92AFE089300B60036 /* Sources */,
+				ACA34CAA2AFE089300B60036 /* Frameworks */,
+				ACA34CAB2AFE089300B60036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA34CAF2AFE089300B60036 /* PBXTargetDependency */,
+			);
+			name = FlotingAnimationButtonTests;
+			productName = FlotingAnimationButtonTests;
+			productReference = ACA34CAD2AFE089300B60036 /* FlotingAnimationButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACA34CB62AFE089300B60036 /* FlotingAnimationButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA34CC72AFE089300B60036 /* Build configuration list for PBXNativeTarget "FlotingAnimationButtonUITests" */;
+			buildPhases = (
+				ACA34CB32AFE089300B60036 /* Sources */,
+				ACA34CB42AFE089300B60036 /* Frameworks */,
+				ACA34CB52AFE089300B60036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA34CB92AFE089300B60036 /* PBXTargetDependency */,
+			);
+			name = FlotingAnimationButtonUITests;
+			productName = FlotingAnimationButtonUITests;
+			productReference = ACA34CB72AFE089300B60036 /* FlotingAnimationButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA34C952AFE089100B60036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ACA34C9C2AFE089100B60036 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					ACA34CAC2AFE089300B60036 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = ACA34C9C2AFE089100B60036;
+					};
+					ACA34CB62AFE089300B60036 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = ACA34C9C2AFE089100B60036;
+					};
+				};
+			};
+			buildConfigurationList = ACA34C982AFE089100B60036 /* Build configuration list for PBXProject "FlotingAnimationButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA34C942AFE089100B60036;
+			productRefGroup = ACA34C9E2AFE089100B60036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA34C9C2AFE089100B60036 /* FlotingAnimationButton */,
+				ACA34CAC2AFE089300B60036 /* FlotingAnimationButtonTests */,
+				ACA34CB62AFE089300B60036 /* FlotingAnimationButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA34C9B2AFE089100B60036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA34CA82AFE089300B60036 /* Preview Assets.xcassets in Resources */,
+				ACA34CA52AFE089300B60036 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA34CAB2AFE089300B60036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA34CB52AFE089300B60036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA34C992AFE089100B60036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA34CA32AFE089100B60036 /* ContentView.swift in Sources */,
+				ACA34CA12AFE089100B60036 /* FlotingAnimationButtonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA34CA92AFE089300B60036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA34CB22AFE089300B60036 /* FlotingAnimationButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA34CB32AFE089300B60036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA34CBC2AFE089300B60036 /* FlotingAnimationButtonUITests.swift in Sources */,
+				ACA34CBE2AFE089300B60036 /* FlotingAnimationButtonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACA34CAF2AFE089300B60036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA34C9C2AFE089100B60036 /* FlotingAnimationButton */;
+			targetProxy = ACA34CAE2AFE089300B60036 /* PBXContainerItemProxy */;
+		};
+		ACA34CB92AFE089300B60036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA34C9C2AFE089100B60036 /* FlotingAnimationButton */;
+			targetProxy = ACA34CB82AFE089300B60036 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACA34CBF2AFE089300B60036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACA34CC02AFE089300B60036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA34CC22AFE089300B60036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlotingAnimationButton/Preview Content\"";
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FlotingAnimationButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACA34CC32AFE089300B60036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlotingAnimationButton/Preview Content\"";
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FlotingAnimationButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACA34CC52AFE089300B60036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FlotingAnimationButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlotingAnimationButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlotingAnimationButton";
+			};
+			name = Debug;
+		};
+		ACA34CC62AFE089300B60036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FlotingAnimationButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlotingAnimationButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlotingAnimationButton";
+			};
+			name = Release;
+		};
+		ACA34CC82AFE089300B60036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FlotingAnimationButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlotingAnimationButton;
+			};
+			name = Debug;
+		};
+		ACA34CC92AFE089300B60036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FlotingAnimationButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlotingAnimationButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA34C982AFE089100B60036 /* Build configuration list for PBXProject "FlotingAnimationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA34CBF2AFE089300B60036 /* Debug */,
+				ACA34CC02AFE089300B60036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA34CC12AFE089300B60036 /* Build configuration list for PBXNativeTarget "FlotingAnimationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA34CC22AFE089300B60036 /* Debug */,
+				ACA34CC32AFE089300B60036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA34CC42AFE089300B60036 /* Build configuration list for PBXNativeTarget "FlotingAnimationButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA34CC52AFE089300B60036 /* Debug */,
+				ACA34CC62AFE089300B60036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA34CC72AFE089300B60036 /* Build configuration list for PBXNativeTarget "FlotingAnimationButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA34CC82AFE089300B60036 /* Debug */,
+				ACA34CC92AFE089300B60036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA34C952AFE089100B60036 /* Project object */;
+}
